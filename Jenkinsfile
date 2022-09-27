@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('test') {
+        stage('testing') {
             steps {
-                sh 'echo hello'
+                sh 'echo hello this is first declarative pipeline project'
             }
         }
         stage('learning') {
